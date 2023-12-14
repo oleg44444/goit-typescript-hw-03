@@ -13,7 +13,7 @@ interface ICharacter {
   levelUp(): void;
 }
 interface ISpellCaster {
-  castSpell();
+  castSpell(): void;
 }
 // реалізація класу Wizard
 class Wizard implements ICharacter, ISpellCaster {
